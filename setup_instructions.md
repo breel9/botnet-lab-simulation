@@ -15,7 +15,13 @@ This guide walks you through setting up a local BYOB (Build Your Own Botnet) env
 
 ---
 
-## 2. 🔄 Clone the BYOB Repository
-```bash
+## 2. Clone the Repository
+```
 git clone https://github.com/malwaredllc/byob.git
 cd byob
+```
+
+## 3. Install Dependencies
+```
+pip3 install -r requirements.txt
+```
